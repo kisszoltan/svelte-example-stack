@@ -28,6 +28,7 @@
 		"postcss": "^8.4.40",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
+		"reflect-metadata": "^0.2.2",
 		"svelte": "^4.2.7",
 		"svelte-check": "^3.6.0",
 		"tailwindcss": "^3.4.7",
@@ -36,5 +37,8 @@
 		"vite": "^5.0.3",
 		"vitest": "^2.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"tsyringe": "^4.8.0"
+	}
 }
